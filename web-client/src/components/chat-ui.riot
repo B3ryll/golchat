@@ -1,0 +1,26 @@
+<chat-ui>
+    <h2>chat ui</h2>
+
+    <ul>
+        <li each={ message in state.messageList }>
+            <span>{ message.content }</span>
+        </li>
+    </ul>
+
+    <form onsubmit={sendMessage}>
+        <input onkeyup={ editMsgDraft }
+               value={ state.draft }/>
+        <button disabled={ !state.draft }>
+            send message
+        </button>
+    </form>
+    
+    <script>
+        import ChatUi from "./chat-ui.riot.js"
+
+        export default {
+                ...ChatUi,
+                components: {},
+            }
+    </script>
+</chat-ui>

@@ -1,0 +1,26 @@
+{
+  "name": "golchat-client",
+  "version": "0.1.0",
+  "description": "Golchat app web client",
+  "main": "index.js",
+  "author": "B3ryll <b3ryll@proton.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@riotjs/compiler": "^6.4.2",
+    "@riotjs/webpack-loader": "^6.0.0",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
+    "tsconfig-paths-webpack-plugin": "^4.0.1",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "riot": "^7.1.0"
+  }
+}

@@ -1,0 +1,15 @@
+<app>
+    <chat-ui/>
+
+    <script>
+        import ChatUi from "./chat-ui.riot"
+        import App from "./app.riot.js"
+        
+        export default {
+            ...App,
+            components: {
+                ChatUi,
+            },
+        }
+    </script>
+</app>

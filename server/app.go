@@ -8,7 +8,12 @@ import (
     "github.com/gorilla/websocket"
 )
 
-var upgrader = websocket.Upgrader{}
+var upgrader = websocket.Upgrader{
+    // @ debug : remove this later ...
+    CheckOrigin: func(r *Request) bool {
+        return true
+    },
+}
 
 func main() {
     indexHandle := func (writ ResponseWriter, req *Request) {

@@ -1,0 +1,21 @@
+#+title: to-do list
+#+author: B3ryll
+#+startup: content
+
+* web server
+
+*** TODO write database abstractions
+
+*** TODO write websocket connection handling
+
+*** TODO implement authentication protocols
+
+*** TODO create api documentation
+
+* web client
+
+*** TODO design user interfaces
+
+*** TODO create authentication routines
+
+*** TODO implement functional websocket communication
